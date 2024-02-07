@@ -83,7 +83,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top:400px ;
+  margin-top:auto ;
   margin-left: 300px;
   margin-right: 0;
   padding: 75px 0;
@@ -142,14 +142,11 @@ here comes project section
 
 .contact{
  max-width: 50vw;
- height: 50vh;
+ height: auto;
  padding: 75px;
 left: 150px;
   position: relative;
-  margin-top: 300px ;
-  margin-bottom: 300px;
-  margin-left: auto;
-  margin-right: auto;
+margin: auto;
    
   /* background-color: aqua; */
   display: flex;
