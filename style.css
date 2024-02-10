@@ -2,14 +2,14 @@
   margin: 0;
   padding: 0;
 }
-a{
+a {
   color: black;
 }
-body{
+body {
   flex-direction: column;
   box-sizing: border-box;
 }
-.flexcenter{
+.flexcenter {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,210 +43,155 @@ li {
   margin: 5px 10px;
 }
 
-
-
-.home{
-  
+.home {
   margin: auto;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   display: flex;
-  
 }
-.home-left{
+.home-left {
   font-family: Poppins;
   width: 20vw;
 }
 .home-right {
-position: relative;
-width: auto;
-height: auto;
+  position: relative;
+  width: auto;
+  height: auto;
 }
-.home-right>img{
+.home-right > img {
   width: 10em;
   height: auto;
   position: relative;
   top: -1em;
 }
-.bio{
+.bio {
   font-size: 18px;
 }
-.skills{
+.skills {
   position: absolute;
   top: 100%;
   left: 50%;
-  transform: translate(-50%,50%);
+  transform: translate(-50%, 50%);
 }
-.about{
+.about {
   margin-top: 75vh;
   font-family: monospace;
-  
 }
-.about-right{
+.about-right {
   width: 25vw;
 }
 
-.contact{
+.contact {
   margin: 15vh auto;
   width: 90vw;
 }
-.msg{width: 10em;
-   
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-.c-img-bg{
+.msg {
+  width: 10em;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.c-img-bg {
   height: auto;
   width: 15%;
 }
-.contactimg{
+.contactimg {
   /* height: 20%; */
   width: 100%;
 }
 
-.projects{
+.projects {
   margin: 20vh auto;
 }
-.projects div{
+.projects div {
   margin-top: 1em;
 }
 
-.project1{
+.project1 {
   margin-left: 5em;
   transform: rotate(-10deg);
   width: 40em;
   cursor: pointer;
 }
-.project2{
+.project2 {
   margin-left: -3em;
   transform: rotate(11deg);
   width: 40em;
 }
-.project3{
+.project3 {
   margin-left: -56em;
   margin-top: 18em;
   transform: rotate(1deg);
   width: 30em;
 }
 
-
-
-
-@media  screen and (max-width:600px) {
-  nav{
+@media screen and (max-width: 600px) {
+  nav {
     flex-direction: column;
   }
-  nav ul li{
-    margin:10px 1em;
+  nav ul li {
+    margin: 10px 1em;
   }
-  .home{
+  .home {
     flex-direction: column;
     width: 100vw;
     margin: auto;
     align-items: center;
   }
-  .home-right>img{
+  .home-right > img {
     width: 60vw;
   }
-  .home-left{
+  .home-left {
     font-family: Poppins;
     width: 60vw;
   }
- .about{
-  flex-direction: column;
-  margin-top: 95vh;
- font-family: monospace;
+  .about {
+    flex-direction: column;
+    margin-top: 95vh;
+    font-family: monospace;
+  }
+  .about-left > img {
+    height: 10%;
+  }
+  .about-right {
+    width: 80vw;
+  }
+  .contact {
+    margin: auto;
+  }
 
- }
- .about-left > img{
-  height: 10%;
- }
- .about-right{
-  width: 80vw;
- }
- .contact{margin: auto;}
+  .c-img-bg {
+    flex-direction: column;
+    height: auto;
+    width: 15%;
+    margin: 10px 20px;
+  }
+  .contactimg {
+    /* height: 20%; */
+    width: 100%;
+  }
+  .msg {
+    font-size: 10px;
+  }
 
- .c-img-bg{
-  flex-direction: column;
-  height: auto;
-  width: 15%;
-  margin: 10px 20px;
+  .imgwidth {
+    width: 20em;
+  }
+  .projectparent {
+    flex-direction: column;
+  }
+  .project1 {
+    margin-left: auto;
+    transform: none;
+  }
+  .project2 {
+    margin-left: auto;
+    transform: none;
+  }
+  .project3 {
+    margin: auto;
+
+    transform: none;
+  }
 }
-.contactimg{
-  /* height: 20%; */
-  width: 100%;
-}
-.msg{font-size: 10px; }
-
-
-.imgwidth{
-  width: 20em;
-}
-.projectparent{
-  flex-direction: column;
-}
-.project1{
-  margin-left: auto;
-  transform: none;
-}
-.project2{
-  margin-left: auto;
-  transform:none;
-}
-.project3{
-  margin: auto;
-
-  transform:none;
- 
-}
-}
-
-
-
-/*
-
-here comes project section
-
-*/
-
-/*
-
-
-
-
-
-.contact{
-  background-color: aqua; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.msg{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  position: relative;
-  font-size: 18px;
-}
-
-.msg>h3{
-  margin-bottom: 20px;
-}
-
-.contactimgbg{
-  position: relative;
-  width: 400px;
-  height: 400px;
-padding: 75px;
-margin-top: inherit;
-margin-left: 140px;
-}
-.contactimg{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 50%;
-  object-fit: contain;
-}
-
-*/
